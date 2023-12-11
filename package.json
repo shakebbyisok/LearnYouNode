@@ -1,0 +1,25 @@
+{
+  "name": "learnyounode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jest.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --require ts-node/register tests/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakebbyisok/LearnYouNode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakebbyisok/LearnYouNode/issues"
+  },
+  "homepage": "https://github.com/shakebbyisok/LearnYouNode#readme",
+  "dependencies": {
+    "mocha": "^10.2.0"
+  }
+}
