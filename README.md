@@ -16,15 +16,18 @@ Abans de començar, assegura't de tenir Node.js i npm instal·lats al teu sistem
 
 ```bash
 git clone https://github.com/shakebbyisok/LearnYouNode.git
+```
 
 2. Navega fins el directori del projecte.
 
 ```bash
 cd learnyounode
+```
 
 Per executar els tests amb Jest utilitzant npx, pots fer-ho d'aquesta manera:
 
 ```bash
 npx jest nom-del-fitxer.test.ts
+```
 
 
