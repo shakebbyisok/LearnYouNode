@@ -1,6 +1,6 @@
 # LearnYouNode 
 
-Aquest repositori conté la meva solució als exercicis de LearnYouNode, una eina d'aprenentatge per Node.js. He completat amb èxit 13 dels 13 exercicis disponibles i he utilitzat TypeScript per escriure el codi, així com 11/13 tests per assegurar-me que el codi funcioni correctament.
+Aquest repositori conté la meva solució als exercicis de LearnYouNode. He completat amb èxit 13 dels 13 exercicis disponibles i he utilitzat TypeScript per escriure el codi, així com 10/13 tests per assegurar-me que el codi funcioni correctament.
 
 ## Començar
 
