@@ -1,6 +1,6 @@
 import * as http from 'http';
 
-// Function to perform HTTP GET request and return a promise
+
 function httpGet(url: string): Promise<string> {
     return new Promise((resolve, reject) => {
         http.get(url, (response) => {
@@ -12,7 +12,7 @@ function httpGet(url: string): Promise<string> {
     });
 }
 
-// Export the function for testing purposes
+
 export { httpGet };
 
 if (require.main === module) {

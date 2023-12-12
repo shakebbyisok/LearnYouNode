@@ -2,7 +2,10 @@ export function calculateSum(args: string[]): number {
     let sum = 0;
 
     for (let i = 0; i < args.length; i++) {
-        sum += Number(args[i]);
+        const num = Number(args[i]);
+        if (!isNaN(num)) {
+            sum += num;
+        }
     }
 
     return sum;

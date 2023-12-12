@@ -1,11 +1,18 @@
 import * as http from 'http';
 import * as fs from 'fs';
 
-const port = process.argv[2];
-const file = process.argv[3];
+const defaultPort = 8000;
+const port = parseInt(process.argv[2]) || defaultPort;
+const file = process.argv[3] || 'default.txt';
 
-http.createServer((request, response) => {
+const server = http.createServer((request, response) => {
   fs.createReadStream(file).pipe(response);
-}).listen(+port, () => {
-  console.log(`Server listening on http://localhost:${port}`);
 });
+
+if (require.main === module) {
+  server.listen(port, () => {
+    console.log(`Server listening on http://localhost:${port}`);
+  });
+}
+
+export default server;

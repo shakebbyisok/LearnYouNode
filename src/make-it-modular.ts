@@ -14,5 +14,5 @@ mymodule(directory, extension, (err, files) => {
 });
 
 if (require.main === module) {
-    // script is executed directly
+    
 }
